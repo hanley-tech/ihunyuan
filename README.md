@@ -5,11 +5,11 @@
 Built by [Hanley Talks AI](https://www.youtube.com/@hanleytalksai).
 
 <p align="center">
-  <video src="https://github.com/hanley-tech/ihunyuan/raw/main/assets/demo.mp4" width="320" controls poster="assets/demo-poster.png"></video>
+  <video src="https://github.com/hanley-tech/ihunyuan/raw/main/assets/demo.mp4" width="320" controls poster="assets/demo-poster.jpg"></video>
 </p>
 
 <p align="center">
-  <a href="assets/demo.mp4"><img src="assets/demo-poster.png" alt="iHunyuan demo" width="320"></a><br>
+  <a href="assets/demo.mp4"><img src="assets/demo-poster.jpg" alt="iHunyuan demo" width="320"></a><br>
   <em>Captured on iPhone 17 Pro Max · iOS 26 · A19 Pro</em>
 </p>
 
