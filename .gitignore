@@ -36,3 +36,7 @@ Models/
 ## Env
 .env
 .env.local
+
+## Local dev artifacts
+screenshots/
+tools/.cache/
