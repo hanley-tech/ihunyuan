@@ -47,10 +47,17 @@ struct AboutSheet: View {
     }
 
     private var header: some View {
-        VStack(spacing: 10) {
-            Image(systemName: "character.bubble.fill")
-                .font(.system(size: 56, weight: .light))
-                .foregroundStyle(Color.accentColor.gradient)
+        VStack(spacing: 12) {
+            Image("AppIconArtwork")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 110, height: 110)
+                .clipShape(RoundedRectangle(cornerRadius: 26, style: .continuous))
+                .overlay(
+                    RoundedRectangle(cornerRadius: 26, style: .continuous)
+                        .strokeBorder(.white.opacity(0.35), lineWidth: 1)
+                )
+                .shadow(color: .black.opacity(0.25), radius: 14, y: 8)
                 .padding(.top, 4)
             Text("iHunyuan")
                 .font(.system(size: 30, weight: .bold, design: .rounded))

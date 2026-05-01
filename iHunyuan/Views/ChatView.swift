@@ -23,6 +23,13 @@ struct ChatView: View {
     var body: some View {
         ZStack(alignment: .top) {
             background
+                .contentShape(Rectangle())
+                .onTapGesture {
+                    UIApplication.shared.sendAction(
+                        #selector(UIResponder.resignFirstResponder),
+                        to: nil, from: nil, for: nil
+                    )
+                }
 
             VStack(spacing: 0) {
                 Spacer().frame(height: 60)
